@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body > div {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    color: rgb(229, 49, 112);
+    text-align: center;
+    margin: 30px;
+    font-weight: 1000;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+    width: 75px;
+}
+
+.card {
+    background-color: black;
+    width: calc((100% / 3) - 10px);
+    min-height: 150px;
+    margin: 5px; /* Aggiungi un margine per separare le card */
+    float: left; /* Utilizza float per posizionare le card accanto l'una all'altra */
+}
+
+h4, h4 + span {
+    color: white;
+}
+
+.blue {
+    color: rgb(77, 204, 242);
+}
