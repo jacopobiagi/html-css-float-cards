@@ -26,20 +26,34 @@ p {
 
 img {
     width: 75px;
+    float: left; 
+    margin-right: 10px;
+}
+
+img::after{
+    content: "";
+    display: inline-block;
+    clear: both;
 }
 
 .card {
     background-color: black;
-    width: calc((100% / 3) - 10px);
-    min-height: 150px;
-    margin: 5px; /* Aggiungi un margine per separare le card */
-    float: left; /* Utilizza float per posizionare le card accanto l'una all'altra */
+    width: calc((100% / 3) - 23px);
+    margin: 10px;
+    display: inline-block;
 }
 
 h4, h4 + span {
     color: white;
 }
 
+h4{
+    margin-top: 5px;
+}
+
 .blue {
     color: rgb(77, 204, 242);
+    display: block;
+    font-size: 13px;
+    margin-top: 4px;
 }
